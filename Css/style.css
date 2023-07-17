@@ -108,3 +108,55 @@ main section:nth-of-type(2n + 3) {
   flex-grow: 1;
 }
 
+/* footer  */
+
+footer {
+  background-color: #23272A;
+
+}
+
+.footer-up{
+  padding: 10px 0 0 20px;
+  border-bottom: 1px solid #AFAFAF;
+  height: 550px;
+  
+}
+
+.footer-box-grande,
+.footer-box{
+  height: 500px;
+}
+
+.footer-box-grande{
+  background-color: #F6BFCB;
+  flex-grow: 2;
+}
+
+.footer-box{
+  background-color:#4DB3AB;
+  border-color: white;
+  flex-grow: 1;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  height: 100px;
+
+}
+
+.footer-bottom .container{
+  background-color: #7AF6D4;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.footer-bottom .logo,
+.footer-bottom .button {
+  height: 30px;
+  width: 70px;
+  background-color: #F5B5C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
