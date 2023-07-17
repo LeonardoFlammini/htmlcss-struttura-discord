@@ -11,7 +11,9 @@
   border: 2px dashed black;
 } */
 
-
+.border{
+  border: 2px dashed black;
+}
 
 .container {
   display: flex;
@@ -25,7 +27,6 @@
 header{
   height: 55px;
   background-color: #ADD8E6;
-  border: 2px dashed black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +35,6 @@ header{
 header .logo,
 header .login,
 header nav {
-  border: 2px dashed black;
   background-color: #D9A52B;
   height: 90%;
   padding: 5px;
@@ -58,6 +58,8 @@ header nav{
   justify-content: space-evenly;
 }
 
+/* main  */
+
 main .container {
   padding: 40px;
 }
@@ -65,12 +67,27 @@ main .container {
 .jumbotron {
   margin: 0;
   background-color: #0C258B;
-  height: 500px;
+  height: 400px;
+  padding: 0 20px;
 }
 
 .jumbotron .intro-box {
   width: 80%;
   height: 300px;
-  border: 2px dashed black;
   background-color: rgba(255, 0, 0, 0.5);
+}
+
+.box-grande,
+.box-piccola {
+  height: 400px;
+}
+
+.box-grande{
+  background-color: #1F8FFB;
+  flex-grow: 2;
+}
+
+.box-piccola{
+  background-color: #F6BFCB;
+  flex-grow: 1;
 }
