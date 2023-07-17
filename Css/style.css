@@ -23,7 +23,7 @@
 }
 
 header{
-  height: 70px;
+  height: 55px;
   background-color: #ADD8E6;
   border: 2px dashed black;
   display: flex;
@@ -56,6 +56,10 @@ header nav{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+main .container {
+  padding: 40px;
 }
 
 .jumbotron {
