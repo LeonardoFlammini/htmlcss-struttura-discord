@@ -4,15 +4,8 @@
   box-sizing: border-box;
 }
 
-/* .debug{
-  background-color: rgba(255, 0, 0, 0.5);
-  height: 300px;
-  width: 500px;
-  border: 2px dashed black;
-} */
-
 .border{
-  border: 2px dashed black;
+  border: 2px dashed black; /* debug */
 }
 
 .container {
@@ -27,8 +20,8 @@
 /* header  */
 
 header{
-  height: 55px;
-  background-color: #ADD8E6;
+  height: 55px; /* debug */
+  background-color: #ADD8E6; /* debug */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,8 +30,8 @@ header{
 header .logo,
 header .login,
 header nav {
-  background-color: #D9A52B;
-  height: 90%;
+  background-color: #D9A52B; /* debug */
+  height: 90%; /* debug */
   padding: 5px;
 }
 
@@ -68,15 +61,15 @@ main .container {
 
 .jumbotron {
   margin: 0;
-  background-color: #0C258B;
-  height: 400px;
+  background-color: #0C258B; /* debug */
+  height: 400px; /* debug */
   padding: 0 20px;
 }
 
 .jumbotron .intro-box {
   width: 80%;
-  height: 300px;
-  background-color: rgba(255, 0, 0, 0.5);
+  height: 300px; /* debug */
+  background-color: rgba(255, 0, 0, 0.5); /* debug */
 }
 
 main section:nth-of-type(2n + 3) {
@@ -89,22 +82,22 @@ main section:nth-of-type(2n + 3) {
 
 .box-grande,
 .box-piccola {
-  height: 400px;
+  height: 400px; /* debug */
 }
 
 .box-grande{
-  background-color: #1F8FFB;
+  background-color: #1F8FFB; /* debug */
   flex-grow: 2;
 }
 
 .box-piccola{
-  background-color: #F6BFCB;
+  background-color: #F6BFCB; /* debug */
   flex-grow: 1;
 }
 
 .cta-box {
-  background-color: #418B24;
-  height: 700px;
+  background-color: #418B24;  /* debug */
+  height: 700px; /* debug */
   flex-grow: 1;
 }
 
@@ -117,45 +110,45 @@ footer {
 
 .footer-up{
   padding: 10px 0 0 20px;
-  border-bottom: 1px solid #AFAFAF;
-  height: 550px;
+  border-bottom: 1px solid #AFAFAF; /* debug */
+  height: 550px; /* debug */
   
 }
 
 .footer-box-grande,
 .footer-box{
-  height: 500px;
+  height: 500px; /* debug */
 }
 
 .footer-box-grande{
-  background-color: #F6BFCB;
+  background-color: #F6BFCB; /* debug */
   flex-grow: 2;
 }
 
 .footer-box{
-  background-color:#4DB3AB;
-  border-color: white;
+  background-color:#4DB3AB; /* debug */
+  border-color: white; /* debug */
   flex-grow: 1;
 }
 
 .footer-bottom {
   padding-top: 20px;
-  height: 100px;
+  height: 100px; /* debug */
 
 }
 
 .footer-bottom .container{
-  background-color: #7AF6D4;
+  background-color: #7AF6D4; /* debug */
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 70px; /* debug */
 }
 
 .footer-bottom .logo,
 .footer-bottom .button {
-  height: 30px;
-  width: 70px;
-  background-color: #F5B5C0;
+  height: 30px; /* debug */
+  width: 70px; /* debug */
+  background-color: #F5B5C0; /* debug */
   display: flex;
   justify-content: center;
   align-items: center;
