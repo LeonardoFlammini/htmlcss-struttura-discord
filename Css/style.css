@@ -4,10 +4,69 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: red;
-}
+/* .debug{
+  background-color: rgba(255, 0, 0, 0.5);
+  height: 300px;
+  width: 500px;
+  border: 2px dashed black;
+} */
+
+
 
 .container {
+  display: flex;
+  width: 70%;
+  max-width: 1600px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
 
+header{
+  height: 70px;
+  background-color: #ADD8E6;
+  border: 2px dashed black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo,
+header .login,
+header nav {
+  border: 2px dashed black;
+  background-color: #D9A52B;
+  height: 90%;
+  padding: 5px;
+}
+
+header .logo{
+  flex-grow: 1;
+  display: flex;
+}
+
+header .login{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header nav{
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.jumbotron {
+  margin: 0;
+  background-color: #0C258B;
+  height: 500px;
+}
+
+.jumbotron .intro-box {
+  width: 80%;
+  height: 300px;
+  border: 2px dashed black;
+  background-color: rgba(255, 0, 0, 0.5);
 }
